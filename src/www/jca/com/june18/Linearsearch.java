@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class Linearsearch {
 	public int search(int[] arr,int input) {
 		int result=-1;
-		for(i=0; i)
+		for(int i=0; i<arr.length; i++)
+			if(arr[i]==input) {
+				if(arr[i]==input) {
+					result=i;
+				}
+			}
 
 
 
